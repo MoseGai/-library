@@ -14,7 +14,6 @@ pip3 install -r requirements.txt
 python3 manage.py runserver 8000
 ```
 
-
 主页：
 http://localhost:8000/
 
@@ -27,18 +26,19 @@ http://localhost:8000/admin/
 python3 manage.py create_admin_account --username admin --password admin
 ```
 
-
 主页：
 ![index][0]
 
 书目检索页面：可以根据ISBN/书名/作者检索
-![][1]
 
+![QQ截图20191223152132](C:\Users\Asus\Desktop\QQ截图20191223152132.png)
 
 书籍信息爬取自豆瓣读书Top250，读者信息用Faker生成
 登陆方式为电话号码，密码为*password*
 
-![][3]
+![QQ截图20191223152144](C:\Users\Asus\Desktop\QQ截图20191223152144.png)
+
+
 
 
 管理界面
